@@ -1,0 +1,56 @@
+body{
+    background-color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+#app{
+    width: 720px;
+    height: 1440px;
+    background: rgb(60, 60, 90);
+}
+#app .contact img{
+    width: 120px;
+    padding-right: 15px;
+}
+#app .contact{
+    border-bottom: 1px solid rgb(95, 91, 100);
+    padding: 20px;
+}
+#app .contact:hover{
+    background: rgb(85, 85, 138);
+}
+#app .contact:first-child{
+    border-top: 1px solid rgb(95, 91, 100);
+    transition: .5s;
+}
+#app .contact h2{
+    color: white;
+    font-size: 36px;
+}
+#app .contact p{
+    color: rgb(161, 160, 161);
+    font-size: 28px;
+    height: 2.1em;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#app .contact p span{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+#app .contact div:first-of-type{
+    display: inline-block;
+    vertical-align: top;
+    width: 420px;
+}
+#app .contact div+div{
+    float: right;
+    color: rgb(161, 160, 161)
+}
+.fa-check:first-child{
+    position: relative;
+    left: 6px;
+    text-shadow: 2px 2px 1px rgb(60, 60, 90);
+    
+}
